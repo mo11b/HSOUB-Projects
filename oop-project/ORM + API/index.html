@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Add New Post:</h1>
+        <from action="/post/" method="post">
+            <lable for="title" class="from-lable">Title:</lable>
+            <input name="title" type="text" class="form-control">
+            <lable for="body" class="from-lable">Body:</lable>
+            <textarea name="body" cols="30" rows="10" class="form-control"></textarea>
+            <input type="submit" value="Save" class="btn btn-primary">
+        </from>
+</body>
+</html>
